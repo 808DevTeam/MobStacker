@@ -102,7 +102,7 @@ class StackFactory{
                 $count = 0;
             }
             $entity->setNameTagVisible(true);
-            $entity->setNameTag("§l§ex§a{$count} {$entity->getName()}");
+            $entity->setNameTag("§l§bx§e{$count} {$entity->getName()}");
         }
         return true;
     }
